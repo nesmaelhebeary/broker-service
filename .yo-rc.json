@@ -40,7 +40,9 @@
     "pages": [],
     "creationTimestamp": 1617724776736,
     "jwtSecretKey": "Zjg3YmVlNjY1YTU1YmJiZDg5NGE5ZmExZDBiNGE5NDczYzY0OGZkNDM2MGJkOTJjMWM3NGJiNDc3ODQ4YzgxMWZhYzdhMGJkMDMwMjg1NmE4MTNhNWJhZGI2NzEyOWQwMjZjNTBmYWUyZjJhYjcyNzQ2MmM2MmIwOGY5ZjgwY2U=",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Broker"],
+    "lastLiquibaseTimestamp": 1617724807000
   },
   "git-provider": "GitHub",
   "git-company": "nesmaelhebeary",
