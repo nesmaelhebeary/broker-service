@@ -1,0 +1,159 @@
+{
+  "name": "Broker",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "whtAcceptance",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "region",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactDial",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "BrokerStatus",
+      "fieldValues": "New,Active,InActive"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "taxRegisteryNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "taxAuthority",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "validFrom",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "validTo",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "taxType",
+      "fieldType": "TaxType",
+      "fieldValues": "Percentage,FlatRate"
+    },
+    {
+      "fieldName": "taxValue",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "regulatory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fraCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "liscenceValidFrom",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "liscenceValidTo",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "brokerNameAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentType",
+      "fieldType": "PaymentType",
+      "fieldValues": "Receipt,Payment"
+    },
+    {
+      "fieldName": "paymentMode",
+      "fieldType": "PaymentMode",
+      "fieldValues": "Cash,CHEQUE,TRANSFER"
+    },
+    {
+      "fieldName": "bankName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "accountName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "branch",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bankAccountNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bankAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "swiftCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iBANNO",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "broker",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "BrokerService",
+  "clientRootFolder": "BrokerService",
+  "databaseType": "sql",
+  "changelogDate": "20210406160007"
+}
