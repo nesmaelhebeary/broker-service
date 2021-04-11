@@ -1,0 +1,64 @@
+entity Broker {
+    id Long,
+    name String,
+     address String,
+     country String,
+     city String,
+     whtAcceptance Boolean,
+     region String,
+    contactName String,
+    contactDial String,
+    contactEmail String,
+    createdDate LocalDate,
+    status BrokerStatus,
+    createdBy String,
+    taxRegisteryNumber String,
+    taxAuthority String,
+    validFrom LocalDate,
+    validTo LocalDate,
+    taxType TaxType,
+    taxValue Double,
+    regulatory String,
+    fraCode String,
+    liscenceValidFrom LocalDate,
+    liscenceValidTo LocalDate,
+    brokerNameAr String,
+    paymentType PaymentType,
+    paymentMode PaymentMode
+    bankName String,
+    accountName String,
+    branch String,
+    bankAccountNo String,
+    bankAddress	String ,
+    currency String	,
+    swiftCode String,	
+    iBANNO String
+    
+}
+
+
+enum BrokerStatus{
+New, Active, InActive
+}
+
+enum BrokerType{
+Company, Individual
+}
+
+enum TaxType{
+Percentage, FlatRate
+}
+
+enum PaymentType{
+Receipt, Payment
+}
+
+enum PaymentMode{
+Cash, CHEQUE, TRANSFER
+}
+
+
+
+
+
+  
